@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.C. Demonz Futbol Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 data-lang-en="M.C. Demonz Futbol Club" data-lang-es="M.C. Demonz Futbol Club">M.C. Demonz Futbol Club</h1>
+            <p class="tagline" data-lang-en="Yuma County Youth Soccer Since 2007" data-lang-es="Fútbol Juvenil del Condado de Yuma Desde 2007">Yuma County Youth Soccer Since 2007</p>
+            <button id="langToggle" class="lang-btn">Español</button>
+        </div>
+    </header>
+
+    <nav class="tabs">
+        <div class="container">
+            <button class="tab-btn active" data-tab="home" data-lang-en="Home" data-lang-es="Inicio">Home</button>
+            <button class="tab-btn" data-tab="about" data-lang-en="About" data-lang-es="Acerca de">About</button>
+            <button class="tab-btn" data-tab="teams" data-lang-en="Teams" data-lang-es="Equipos">Teams</button>
+            <button class="tab-btn" data-tab="schedule" data-lang-en="Schedule" data-lang-es="Calendario">Schedule</button>
+            <button class="tab-btn" data-tab="gallery" data-lang-en="Gallery" data-lang-es="Galería">Gallery</button>
+            <button class="tab-btn" data-tab="contact" data-lang-en="Contact" data-lang-es="Contacto">Contact</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Home Tab -->
+        <section id="home" class="tab-content active">
+            <h2 data-lang-en="Welcome to M.C. Demonz" data-lang-es="Bienvenidos a M.C. Demonz">Welcome to M.C. Demonz</h2>
+            <p data-lang-en="Building champions on and off the field since 2007." data-lang-es="Construyendo campeones dentro y fuera del campo desde 2007.">Building champions on and off the field since 2007.</p>
+            <div class="hero-info">
+                <h3 data-lang-en="Head Coach: Pepe Avalos" data-lang-es="Entrenador Principal: Pepe Avalos">Head Coach: Pepe Avalos</h3>
+                <p data-lang-en="Ages 7U - 14U" data-lang-es="Edades 7U - 14U">Ages 7U - 14U</p>
+            </div>
+        </section>
+
+        <!-- About Tab -->
+        <section id="about" class="tab-content">
+            <h2 data-lang-en="About Us" data-lang-es="Acerca de Nosotros">About Us</h2>
+            <p data-lang-en="M.C. Demonz Futbol Club was established in 2007 in Yuma County, dedicated to developing young soccer players through quality coaching and competitive play." data-lang-es="M.C. Demonz Futbol Club fue establecido en 2007 en el Condado de Yuma, dedicado a desarrollar jóvenes futbolistas a través de entrenamiento de calidad y juego competitivo.">M.C. Demonz Futbol Club was established in 2007 in Yuma County, dedicated to developing young soccer players through quality coaching and competitive play.</p>
+        </section>
+
+        <!-- Teams Tab -->
+        <section id="teams" class="tab-content">
+            <h2 data-lang-en="Our Teams" data-lang-es="Nuestros Equipos">Our Teams</h2>
+            <div id="teamsContainer"></div>
+        </section>
+
+        <!-- Schedule Tab -->
+        <section id="schedule" class="tab-content">
+            <h2 data-lang-en="Schedule" data-lang-es="Calendario">Schedule</h2>
+            <div id="scheduleContainer"></div>
+        </section>
+
+        <!-- Gallery Tab -->
+        <section id="gallery" class="tab-content">
+            <h2 data-lang-en="Gallery" data-lang-es="Galería">Gallery</h2>
+            <div class="gallery-grid" id="galleryContainer"></div>
+        </section>
+
+        <!-- Contact Tab -->
+        <section id="contact" class="tab-content">
+            <h2 data-lang-en="Contact Us" data-lang-es="Contáctenos">Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Name / Nombre" required>
+                <input type="email" placeholder="Email / Correo" required>
+                <textarea placeholder="Message / Mensaje" rows="5" required></textarea>
+                <button type="submit" data-lang-en="Send Message" data-lang-es="Enviar Mensaje">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 M.C. Demonz Futbol Club</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
