@@ -14,11 +14,11 @@ class TabManager {
 
     switchTab(selectedTab) {
         const targetId = selectedTab.dataset.tab;
-        
+
         // Remove active from all
         this.tabs.forEach(tab => tab.classList.remove('active'));
         this.contents.forEach(content => content.classList.remove('active'));
-        
+
         // Add active to selected
         selectedTab.classList.add('active');
         document.getElementById(targetId).classList.add('active');
@@ -72,7 +72,7 @@ class DataManager {
         const container = document.getElementById('teamsContainer');
         const lang = this.langManager.getCurrentLang();
         const trans = clubData.translations.teams;
-        
+
         container.innerHTML = clubData.teams.map(team => `
             <div class="team-card">
                 <h3>${team.age}</h3>
@@ -87,7 +87,7 @@ class DataManager {
         const container = document.getElementById('scheduleContainer');
         const lang = this.langManager.getCurrentLang();
         const trans = clubData.translations.schedule;
-        
+
         container.innerHTML = clubData.schedule.map(item => `
             <div class="schedule-item">
                 <div class="date">${item.date}</div>
@@ -101,7 +101,7 @@ class DataManager {
 
     renderGallery() {
         const container = document.getElementById('galleryContainer');
-        
+
         container.innerHTML = clubData.gallery.map(item => `
             <div class="gallery-item">
                 <img src="${item.src}" alt="${item.alt}">
@@ -143,7 +143,7 @@ class App {
         this.dataManager.renderTeams();
         this.dataManager.renderSchedule();
         this.dataManager.renderGallery();
-        
+
         // Update data when language changes
         document.getElementById('langToggle').addEventListener('click', () => {
             setTimeout(() => {

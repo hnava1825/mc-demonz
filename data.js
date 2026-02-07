@@ -32,7 +32,7 @@ const clubData = {
             location: "Main Field Complex"
         }
     ],
-    
+
     schedule: [
         {
             date: "February 8, 2025",
@@ -59,7 +59,7 @@ const clubData = {
             type: "practice"
         }
     ],
-    
+
     gallery: [
         {
             src: "https://via.placeholder.com/400x300/8B0000/FFFFFF?text=Team+Photo",
@@ -78,7 +78,7 @@ const clubData = {
             alt: "Tournament Trophy"
         }
     ],
-    
+
     translations: {
         teams: {
             coach: {
