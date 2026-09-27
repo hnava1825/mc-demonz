@@ -1,0 +1,57 @@
+{
+  "name": "MC Demonz FC",
+  "season": "Fall 2026",
+
+  "heroTitle": {
+    "en": "Two squads, one field on Ross Rd.",
+    "es": "Dos equipos, una cancha en Ross Rd."
+  },
+  "heroSub": {
+    "en": "Fall 2026 runs from late August through the Fall Cup in October. Rainouts are posted here by 7 a.m. Saturday.",
+    "es": "La temporada de otoño 2026 va de finales de agosto a la Copa de Otoño en octubre. Las cancelaciones por lluvia se publican aquí antes de las 7 a.m. del sábado."
+  },
+
+  "contact": {
+    "location": "Winterhaven, CA",
+    "email": "demonzfc@example.org",
+    "phone": "(760) 555-0143",
+    "practiceField": "Demonz Field, Ross Rd.",
+    "rainoutNote": {
+      "en": "Rainouts posted here by 7 a.m. Saturday",
+      "es": "Cancelaciones por lluvia publicadas aquí antes de las 7 a.m. del sábado"
+    }
+  },
+
+  "news": [
+    {
+      "date": "2026-09-02",
+      "text": {
+        "en": "Photo day is Sep 19, before the morning match. Both squads wear the red kit.",
+        "es": "El día de fotos es el 19 de septiembre, antes del partido de la mañana. Los dos equipos usan el uniforme rojo."
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "text": {
+        "en": "Fall Cup brackets post in early October. Both squads are entered.",
+        "es": "Los cuadros de la Copa de Otoño se publican a principios de octubre. Los dos equipos están inscritos."
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "text": {
+        "en": "Field 2 lights are back on. Weeknight practices run to 7:15 p.m.",
+        "es": "Las luces de la cancha 2 ya funcionan. Los entrenamientos entre semana terminan a las 7:15 p.m."
+      }
+    }
+  ],
+
+  "photos": [
+    { "src": "", "caption": { "en": "Opening day, both squads — Aug 22", "es": "Día inaugural, los dos equipos — 22 de agosto" } },
+    { "src": "", "caption": { "en": "8U warmups, Demonz Field 2 — Aug 22", "es": "Calentamiento 8U, Demonz Field 2 — 22 de agosto" } },
+    { "src": "", "caption": { "en": "9U vs El Centro Union — Aug 29", "es": "9U vs El Centro Union — 29 de agosto" } },
+    { "src": "", "caption": { "en": "Practice under the new lights — Aug 18", "es": "Entrenamiento con las luces nuevas — 18 de agosto" } },
+    { "src": "", "caption": { "en": "Team parents at the snack table — Aug 29", "es": "Padres del equipo en la mesa de refrigerios — 29 de agosto" } },
+    { "src": "", "caption": { "en": "Add a photo", "es": "Agregar una foto" } }
+  ]
+}

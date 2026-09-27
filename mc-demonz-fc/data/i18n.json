@@ -1,0 +1,146 @@
+{
+  "en": {
+    "locale": "en-US",
+    "nav": {
+      "home": "Home",
+      "coaches": "Coaches",
+      "roster": "Roster",
+      "schedule": "Schedule",
+      "photos": "Photos"
+    },
+    "showing": "Showing",
+    "pickSquad": "Pick a squad",
+    "clubNews": "Club news",
+    "photosTitle": "Photos",
+    "photosLede": "Match-day and practice photos, newest first. Send yours to the club address and we will add them.",
+    "photoAlt": "Photo",
+    "coachesLede": "Text your coach before 8 p.m. on weeknights. For registration, uniforms, or fees, contact the club at the address in the footer.",
+    "staffTitle": "{team} staff",
+    "rosterTitle": "{team} roster",
+    "scheduleTitle": "{team} schedule",
+    "nextLine": "Next: {ha} {opponent}, {date} at {time}",
+    "nextHeadline": "Demonz {ha} {opponent}",
+    "arriveEarly": "arrive 30 minutes early for warmups.",
+    "seasonComplete": "Season complete",
+    "noMatch": "No match scheduled.",
+    "schedCaption": "Home matches are at Demonz Field on Ross Rd. Times are subject to league changes.",
+    "vs": "vs",
+    "away": "at",
+    "homeMark": "H",
+    "awayMark": "A",
+    "th": {
+      "date": "Date",
+      "match": "Match",
+      "kickoff": "Kickoff",
+      "result": "Result"
+    },
+    "record": {
+      "wins": "Wins",
+      "losses": "Losses",
+      "draws": "Draws",
+      "goalsFor": "Goals for"
+    },
+    "status": {
+      "next": "Up next",
+      "notPlayed": "Not played",
+      "tbd": "TBD"
+    },
+    "results": {
+      "W": "W",
+      "L": "L",
+      "D": "D"
+    },
+    "roles": {
+      "head": "Head coach",
+      "assistant": "Assistant coach",
+      "parent": "Team parent",
+      "manager": "Team manager"
+    },
+    "positions": {
+      "keeper": "Keeper",
+      "defender": "Defender",
+      "midfield": "Midfield",
+      "forward": "Forward"
+    },
+    "practicesAt": "Practices at",
+    "loading": "Loading team data…",
+    "loadErrorTitle": "Could not load the team data.",
+    "loadErrorBody": "Open this through a web server, not by double-clicking the file — in WebStorm, right-click index.html and choose Open in Browser.",
+    "practicesTitle": "Practices",
+    "matchesTitle": "Matches",
+    "timeRange": "{start} to {end}",
+    "noPractices": "No practices scheduled."
+  },
+  "es": {
+    "locale": "es-MX",
+    "nav": {
+      "home": "Inicio",
+      "coaches": "Entrenadores",
+      "roster": "Plantilla",
+      "schedule": "Calendario",
+      "photos": "Fotos"
+    },
+    "showing": "Mostrando",
+    "pickSquad": "Elige un equipo",
+    "clubNews": "Noticias del club",
+    "photosTitle": "Fotos",
+    "photosLede": "Fotos de partidos y entrenamientos, las más recientes primero. Envía las tuyas al correo del club y las agregamos.",
+    "photoAlt": "Foto",
+    "coachesLede": "Manda mensaje al entrenador antes de las 8 p.m. entre semana. Para inscripciones, uniformes o pagos, comunícate con el club en la dirección al pie de la página.",
+    "staffTitle": "Cuerpo técnico {team}",
+    "rosterTitle": "Plantilla {team}",
+    "scheduleTitle": "Calendario {team}",
+    "nextLine": "Próximo: {ha} {opponent}, {date} a las {time}",
+    "nextHeadline": "Demonz {ha} {opponent}",
+    "arriveEarly": "llega 30 minutos antes para el calentamiento.",
+    "seasonComplete": "Temporada terminada",
+    "noMatch": "Sin partidos programados.",
+    "schedCaption": "Los partidos de local son en Demonz Field, Ross Rd. Los horarios pueden cambiar por la liga.",
+    "vs": "vs",
+    "away": "en",
+    "homeMark": "L",
+    "awayMark": "V",
+    "th": {
+      "date": "Fecha",
+      "match": "Partido",
+      "kickoff": "Hora",
+      "result": "Resultado"
+    },
+    "record": {
+      "wins": "Victorias",
+      "losses": "Derrotas",
+      "draws": "Empates",
+      "goalsFor": "Goles a favor"
+    },
+    "status": {
+      "next": "Próximo",
+      "notPlayed": "Sin jugar",
+      "tbd": "Por definir"
+    },
+    "results": {
+      "W": "G",
+      "L": "P",
+      "D": "E"
+    },
+    "roles": {
+      "head": "Entrenador principal",
+      "assistant": "Entrenador asistente",
+      "parent": "Padre o madre del equipo",
+      "manager": "Coordinador del equipo"
+    },
+    "positions": {
+      "keeper": "Portero",
+      "defender": "Defensa",
+      "midfield": "Mediocampo",
+      "forward": "Delantero"
+    },
+    "practicesAt": "Entrenamientos en",
+    "loading": "Cargando datos del equipo…",
+    "loadErrorTitle": "No se pudieron cargar los datos.",
+    "loadErrorBody": "Abre la página desde un servidor web, no haciendo doble clic en el archivo — en WebStorm, haz clic derecho en index.html y elige Open in Browser.",
+    "practicesTitle": "Entrenamientos",
+    "matchesTitle": "Partidos",
+    "timeRange": "{start} a {end}",
+    "noPractices": "Sin entrenamientos programados."
+  }
+}

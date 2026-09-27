@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MC Demonz FC — 8U &amp; 9U</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <svg class="crest" viewBox="0 0 38 44" aria-hidden="true">
+      <path d="M19 1 36 8v18c0 9-8 14-17 17C10 40 2 35 2 26V8L19 1z" fill="#C8262C" stroke="#F1EBE2" stroke-width="2"/>
+      <path d="M12 15l7 6 7-6-3 13h-8l-3-13z" fill="#171210"/>
+    </svg>
+    <div class="wordmark">MC DEMONZ <span>FC</span></div>
+
+    <nav class="nav" aria-label="Main">
+      <a href="#home" data-nav="home" aria-current="page">Home</a>
+      <a href="#coaches" data-nav="coaches">Coaches</a>
+      <a href="#roster" data-nav="roster">Roster</a>
+      <a href="#schedule" data-nav="schedule">Schedule</a>
+      <a href="#photos" data-nav="photos">Photos</a>
+    </nav>
+
+    <div class="lang" id="lang" role="group" aria-label="Language / Idioma"></div>
+  </div>
+</header>
+
+<div class="switcher" id="switcher" hidden>
+  <div class="switcher-inner">
+    <p id="showing-label">Showing</p>
+    <div class="seg" id="seg" role="group" aria-label="Team / Equipo"></div>
+  </div>
+</div>
+
+<main id="main">
+  <p id="boot" class="lede">Loading team data…</p>
+
+  <section class="panel" id="home" hidden>
+    <div class="hero">
+      <h1 id="hero-title"></h1>
+      <p id="hero-sub"></p>
+    </div>
+
+    <h2 class="subhead" id="subhead-squads" style="margin-top:0;"></h2>
+    <div class="duo" id="duo"></div>
+
+    <h2 class="subhead" id="subhead-news"></h2>
+    <ul class="notes" id="club-news"></ul>
+  </section>
+
+  <section class="panel" id="coaches" hidden>
+    <h2 class="kicker" id="coach-title"></h2>
+    <p class="lede" id="coaches-lede"></p>
+    <div class="staff" id="staff"></div>
+    <p class="lede" id="staff-note" style="margin:1.3rem 0 0;" hidden></p>
+  </section>
+
+  <section class="panel" id="roster" hidden>
+    <h2 class="kicker" id="roster-title"></h2>
+    <p class="lede" id="roster-lede"></p>
+    <div class="roster" id="players"></div>
+  </section>
+
+  <section class="panel" id="schedule" hidden>
+    <h2 class="kicker" id="sched-title"></h2>
+    <div class="next" id="next"></div>
+    <div class="record" id="record"></div>
+
+    <h3 class="subhead" id="practices-title" style="margin-top:0;"></h3>
+    <ul class="practices" id="practices"></ul>
+
+    <h3 class="subhead" id="matches-title"></h3>
+    <table class="fixtures">
+      <caption id="sched-caption"></caption>
+      <thead>
+        <tr>
+          <th scope="col" id="th-date">Date</th>
+          <th scope="col" id="th-match">Match</th>
+          <th scope="col" id="th-kickoff">Kickoff</th>
+          <th scope="col" id="th-result">Result</th>
+        </tr>
+      </thead>
+      <tbody id="fixtures"></tbody>
+    </table>
+  </section>
+
+  <section class="panel" id="photos" hidden>
+    <h2 class="kicker" id="photos-title"></h2>
+    <p class="lede" id="photos-lede"></p>
+    <div class="gallery" id="gallery"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="foot-inner" id="foot"></div>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

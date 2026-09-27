@@ -1,0 +1,426 @@
+{
+  "order": [
+    "8u",
+    "9u"
+  ],
+  "teams": {
+    "8u": {
+      "short": "8U",
+      "name": "Demonz Red",
+      "rosterLede": {
+        "en": "Eleven players.",
+        "es": "Once jugadores."
+      },
+      "record": {
+        "wins": 3,
+        "losses": 1,
+        "draws": 1,
+        "goalsFor": 14
+      },
+      "staff": [
+        {
+          "initials": "FC",
+          "name": "Fabian Cervantes",
+          "role": "head",
+          "bio": "",
+          "contact": ""
+        },
+        {
+          "initials": "JV",
+          "name": "Jesus Viveros",
+          "role": "assistant",
+          "bio": "",
+          "contact": ""
+        }
+      ],
+      "staffNote": "",
+      "players": [
+        {
+          "number": 1,
+          "name": "T. Ibarra",
+          "position": "keeper"
+        },
+        {
+          "number": 2,
+          "name": "A. Ruiz",
+          "position": "defender"
+        },
+        {
+          "number": 4,
+          "name": "J. Castro",
+          "position": "defender"
+        },
+        {
+          "number": 5,
+          "name": "M. Solis",
+          "position": "midfield"
+        },
+        {
+          "number": 7,
+          "name": "E. Duran",
+          "position": "forward"
+        },
+        {
+          "number": 8,
+          "name": "L. Ontiveros",
+          "position": "midfield"
+        },
+        {
+          "number": 9,
+          "name": "K. Barajas",
+          "position": "forward"
+        },
+        {
+          "number": 10,
+          "name": "S. Fierro",
+          "position": "midfield"
+        },
+        {
+          "number": 11,
+          "name": "D. Munoz",
+          "position": "forward"
+        },
+        {
+          "number": 12,
+          "name": "N. Espinoza",
+          "position": "defender"
+        },
+        {
+          "number": 14,
+          "name": "R. Salgado",
+          "position": "midfield"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "2026-08-22",
+          "time": "09:00",
+          "home": true,
+          "opponent": "Somerton Sting",
+          "venue": "Demonz Field 2",
+          "status": "played",
+          "result": "W 4-2"
+        },
+        {
+          "date": "2026-08-29",
+          "time": "09:00",
+          "home": false,
+          "opponent": "Yuma United",
+          "venue": "Desert Sun Park",
+          "status": "played",
+          "result": "L 1-3"
+        },
+        {
+          "date": "2026-09-05",
+          "time": "09:00",
+          "home": true,
+          "opponent": "Winterhaven Rapids",
+          "venue": "Demonz Field 2",
+          "status": "next",
+          "result": ""
+        },
+        {
+          "date": "2026-09-12",
+          "time": "08:30",
+          "home": false,
+          "opponent": "Calexico FC",
+          "venue": "Border Park East",
+          "status": "upcoming",
+          "result": ""
+        },
+        {
+          "date": "2026-09-19",
+          "time": "09:00",
+          "home": true,
+          "opponent": "Brawley Warhawks",
+          "venue": "Demonz Field 2",
+          "status": "upcoming",
+          "result": ""
+        },
+        {
+          "date": "2026-09-26",
+          "time": null,
+          "home": null,
+          "opponent": {
+            "en": "Bye week",
+            "es": "Semana de descanso"
+          },
+          "venue": {
+            "en": "No match scheduled",
+            "es": "Sin partido programado"
+          },
+          "status": "bye",
+          "result": ""
+        },
+        {
+          "date": "2026-10-03",
+          "time": "10:00",
+          "home": false,
+          "opponent": "El Centro Union",
+          "venue": "Union Sports Complex",
+          "status": "upcoming",
+          "result": ""
+        },
+        {
+          "date": "2026-10-10",
+          "time": "09:00",
+          "home": true,
+          "opponent": "Gadsden Galaxy",
+          "venue": "Demonz Field 2",
+          "status": "upcoming",
+          "result": ""
+        },
+        {
+          "date": "2026-10-17",
+          "time": "09:00",
+          "home": false,
+          "opponent": "Somerton Sting",
+          "venue": "Somerton City Park",
+          "status": "upcoming",
+          "result": ""
+        },
+        {
+          "date": "2026-10-24",
+          "time": null,
+          "home": null,
+          "opponent": {
+            "en": "Fall Cup, round 1",
+            "es": "Copa de Otoño, primera ronda"
+          },
+          "venue": {
+            "en": "Site announced Oct 13",
+            "es": "Sede anunciada el 13 de octubre"
+          },
+          "status": "upcoming",
+          "result": ""
+        }
+      ],
+      "practices": [
+        {
+          "weekday": 2,
+          "start": "17:30",
+          "end": "18:45",
+          "location": "Demonz Field 2"
+        },
+        {
+          "weekday": 4,
+          "start": "17:30",
+          "end": "18:45",
+          "location": "Demonz Field 2"
+        }
+      ]
+    },
+    "9u": {
+      "short": "9U",
+      "name": "Demonz Black",
+      "rosterLede": {
+        "en": "Thirteen players, moving to 7v7 this season.",
+        "es": "Trece jugadores, pasando a 7v7 esta temporada."
+      },
+      "record": {
+        "wins": 2,
+        "losses": 2,
+        "draws": 1,
+        "goalsFor": 9
+      },
+      "staff": [
+        {
+          "initials": "JV",
+          "name": "Jesus Viveros",
+          "role": "head",
+          "bio": "",
+          "contact": ""
+        }
+      ],
+      "staffNote": {
+        "en": "No team parent this season. If you can help with snacks and the carpool list, talk to Coach Viveros.",
+        "es": "Este año no hay padre o madre del equipo. Si puedes ayudar con los refrigerios y la lista de transporte, habla con el entrenador Viveros."
+      },
+      "players": [
+        {
+          "number": 1,
+          "name": "C. Villalobos",
+          "position": "keeper"
+        },
+        {
+          "number": 3,
+          "name": "A. Melendez",
+          "position": "defender"
+        },
+        {
+          "number": 4,
+          "name": "B. Tapia",
+          "position": "defender"
+        },
+        {
+          "number": 6,
+          "name": "G. Rincon",
+          "position": "defender"
+        },
+        {
+          "number": 7,
+          "name": "O. Zamudio",
+          "position": "midfield"
+        },
+        {
+          "number": 8,
+          "name": "P. Aguirre",
+          "position": "midfield"
+        },
+        {
+          "number": 9,
+          "name": "I. Carrillo",
+          "position": "forward"
+        },
+        {
+          "number": 10,
+          "name": "F. Delgado",
+          "position": "midfield"
+        },
+        {
+          "number": 11,
+          "name": "H. Moreno",
+          "position": "forward"
+        },
+        {
+          "number": 13,
+          "name": "V. Lugo",
+          "position": "midfield"
+        },
+        {
+          "number": 15,
+          "name": "Y. Sandoval",
+          "position": "forward"
+        },
+        {
+          "number": 16,
+          "name": "Q. Barron",
+          "position": "defender"
+        },
+        {
+          "number": 18,
+          "name": "Z. Herrera",
+          "position": "keeper"
+        }
+      ],
+      "fixtures": [
+        {
+          "date": "2026-08-22",
+          "time": "13:00",
+          "home": false,
+          "opponent": "Gadsden Galaxy",
+          "venue": "Gadsden Elementary",
+          "status": "played",
+          "result": "D 2-2"
+        },
+        {
+          "date": "2026-08-29",
+          "time": "13:00",
+          "home": true,
+          "opponent": "El Centro Union",
+          "venue": "Demonz Field 1",
+          "status": "played",
+          "result": "W 3-1"
+        },
+        {
+          "date": "2026-09-05",
+          "time": "13:00",
+          "home": true,
+          "opponent": "Yuma United",
+          "venue": "Demonz Field 1",
+          "status": "next",
+          "result": ""
+        },
+        {
+          "date": "2026-09-12",
+          "time": "12:30",
+          "home": false,
+          "opponent": "Brawley Warhawks",
+          "venue": "Warhawk Complex",
+          "status": "upcoming",
+          "result": ""
+        },
+        {
+          "date": "2026-09-19",
+          "time": "13:00",
+          "home": true,
+          "opponent": "Calexico FC",
+          "venue": "Demonz Field 1",
+          "status": "upcoming",
+          "result": ""
+        },
+        {
+          "date": "2026-09-26",
+          "time": "13:00",
+          "home": false,
+          "opponent": "Winterhaven Rapids",
+          "venue": "Rapids Field",
+          "status": "upcoming",
+          "result": ""
+        },
+        {
+          "date": "2026-10-03",
+          "time": null,
+          "home": null,
+          "opponent": {
+            "en": "Bye week",
+            "es": "Semana de descanso"
+          },
+          "venue": {
+            "en": "No match scheduled",
+            "es": "Sin partido programado"
+          },
+          "status": "bye",
+          "result": ""
+        },
+        {
+          "date": "2026-10-10",
+          "time": "13:00",
+          "home": true,
+          "opponent": "Somerton Sting",
+          "venue": "Demonz Field 1",
+          "status": "upcoming",
+          "result": ""
+        },
+        {
+          "date": "2026-10-17",
+          "time": "14:00",
+          "home": false,
+          "opponent": "Gadsden Galaxy",
+          "venue": "Gadsden Elementary",
+          "status": "upcoming",
+          "result": ""
+        },
+        {
+          "date": "2026-10-24",
+          "time": null,
+          "home": null,
+          "opponent": {
+            "en": "Fall Cup, round 1",
+            "es": "Copa de Otoño, primera ronda"
+          },
+          "venue": {
+            "en": "Site announced Oct 13",
+            "es": "Sede anunciada el 13 de octubre"
+          },
+          "status": "upcoming",
+          "result": ""
+        }
+      ],
+      "practices": [
+        {
+          "weekday": 1,
+          "start": "18:00",
+          "end": "19:15",
+          "location": "Demonz Field 1"
+        },
+        {
+          "weekday": 3,
+          "start": "18:00",
+          "end": "19:15",
+          "location": "Demonz Field 1"
+        }
+      ]
+    }
+  }
+}
